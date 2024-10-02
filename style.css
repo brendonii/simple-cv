@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 850px;
+    height: auto;
+    margin: 50px auto;
+    padding: 5rem 6rem 5rem 6rem;
+    border: 2px solid #131313;
+}
+
+.title-center {
+    text-align: center;
+}
+
+.title-center h1 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 2px;
+}
+
+.title-center h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.title-center p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 10px 0 25px 0;
+}
+
+hr {
+    margin-bottom: 25px;
+}
+
+.profile h2 {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.profile p {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 10px 0 25px 0;
+}
+
+.experience {
+    font-size: 15px;
+    line-height: 30px;
+    margin: 8px 0 25px 0;
+}
+
+.experience ul {
+    margin: 10px 30px 25px;
+}
+
+.div-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.edu {
+    font-size: 15px;
+}
+
+.skills {
+    width: 250px;
+    margin-right: -100px;
+}
+
+.skills ul {
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.certification {
+    margin-top: 20px;
+}
+
+.certification p {
+    font-size: 15px;
+
+}
